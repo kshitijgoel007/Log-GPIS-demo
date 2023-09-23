@@ -96,4 +96,7 @@ edf_fig.subplots_adjust(right=0.8)
 edf_cbar_ax = edf_fig.add_axes([0.85, 0.15, 0.05, 0.7])
 edf_cbar = edf_fig.colorbar(pos, cax=edf_cbar_ax)
 
+edf_ax[0].set_title('Whittle')
+edf_ax[1].set_title('Matern 3/2')
+
 plt.show()
